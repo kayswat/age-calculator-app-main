@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/kayswat/age-calculator-app-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://kayswat.github.io/age-calculator-app-main/))
 
 ## My process
 I started the project with building of the framework with HTML and styling with CSS before having to include the interactiveness with Javascript
