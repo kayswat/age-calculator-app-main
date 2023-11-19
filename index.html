@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@500&family=Inter:wght@500&family=Lexend+Deca:wght@500&family=Montserrat:wght@500&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:ital@1&family=Raleway:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="age-input">
+          <form>
+          <div class="day">
+            <h5>DAY</h5>
+            <input type="number" placeholder="DD" class="day-box box" />
+            <div class="error-message day-error-message">This is an error message</div>
+          </div>
+
+          <div class="month">
+            <h5>MONTH</h5>
+            <input type="number" placeholder="MM" class="month-box box" />
+            <div class="error-message month-error-message">This is an error message</div>
+          </div>
+
+          <div class="year">
+            <h5>YEAR</h5>
+            <input type="number" placeholder="YYYY" class="year-box box" />
+            <div class="error-message year-error-message">This is an error message</div>
+          </div>
+          </form>
+        </div>
+
+        <div class="line-break">
+          <div class="line"></div>
+          <button type="submit"><span class="image"><img src="images/icon-arrow.svg" alt="arrow" /></span></button>
+        </div>
+
+        <div class="result">
+          <div ><span class="dash result-years">--</span> years</div>
+          <div ><span class="dash result-months">--</span> months</div>
+          <div ><span class="dash result-days">--</span> days</div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/kayswat">Kayswat</a>.
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
